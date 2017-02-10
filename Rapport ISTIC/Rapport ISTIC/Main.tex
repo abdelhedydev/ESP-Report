@@ -1,0 +1,67 @@
+\documentclass[10pt,a4paper]{report}
+
+% Différentes options pour la classe :
+% - taille de la fonte    : 10pt, 11pt, 12pt
+% - recto ou recto-verso    : oneside, twoside
+% - stade de développement    : draft, final
+
+% Chargement d'extensions
+%\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentuées
+\usepackage[francais]{babel}    % Pour la langue française
+
+%\usepackage[english,francais]{babel}
+\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentuées
+
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+%\usepackage{hyperref}
+\usepackage[french]{varioref}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{amsmath}
+
+
+\pagestyle{fancy}
+\fancyhead[L]{ISTIC}
+\fancyhead[C]{}
+\fancyhead[R]{\rightmark}
+
+
+\fancyfoot[L]{intitulé du stage}
+\fancyfoot[C]{}
+\fancyfoot[R]{\textbf{page \thepage}}
+
+
+% Début du document
+\begin{document}
+
+\include{Garde}
+\newpage
+\pagenumbering{roman}
+\include{Dedicaces}
+\include{Remerciements}
+\tableofcontents    % Table des matières
+\listoffigures        % Liste des figures
+\listoftables        % Liste des tableaux
+\newpage
+\pagenumbering{arabic}
+\include{Introduction}
+\include{Chapitre1}
+\include{Chapitre2}
+\include{Chapitre3}
+\include{Conclusion}
+\include{Annexe1}
+\include{Annexe2}
+\bibliographystyle{alpha}
+\bibliography{Biblio}
+
+
+		
+
+    
+
+% Fin du document
+\end{document}
