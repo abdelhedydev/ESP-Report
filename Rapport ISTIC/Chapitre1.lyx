@@ -1,0 +1,962 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/Home/Desktop/Rapport PFE/Rapport ISTIC/
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding iso8859-1
+\fontencoding T1
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang french
+Les bases
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang french
+Introduction du chapitre
+\end_layout
+
+\begin_layout Section
+
+\lang french
+Écriture d'un paragraphe simple
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+Les activités scientifiques d'un étudiant sont de nature à témoigner de son dévouement à la recherche scientifique et à l'innovation. Les candidats porteurs de projet seront favorisés par le fait qu'ils ont une activité prête à la mise en œuvre.
+\end_layout
+
+\begin_layout Subsection
+
+\lang french
+Activités réalisées 
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+Le projet , à travers les formations spécifiques, à aider les étudiants à mettre en œuvre leurs projets. Les formations offertes constituent, en effet, des stages de perfectionnement pour des candidats déja initiés et ayant dans leurs actifs des formations suivies et des projets réalisés.
+\end_layout
+
+\begin_layout Subsection
+
+\lang french
+Lettre de motivation
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+La lettre de motivation doit dégager les attentes du candidat de la formation ou des formations à suivre. La rédaction doit préciser la valeur ajoutée attendue de la participation. L'évaluation de la lettre tiendra compte de la qualité de la rédaction et la clarté des idées du candidat. Cinq critères doivent être vérifiés pour qu'une lettre de motivation soit excellente.
+\end_layout
+
+\begin_layout Section
+
+\lang french
+Insertion de figure
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset Graphics 
+	filename image3.png
+	width 13cm
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Logo de l'entreprise SOPAL
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "imag3"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang french
+Insertion d'un tableau
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+L'attribution des points en fonction des activités culturelles du candidat est détaillée dans le tableau 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab3"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+\align center
+
+\lang french
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+rowcolor
+\end_layout
+
+\end_inset
+
+[gray]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+0.8
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\series bold
+Nombre de projets réalisés 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+
+\series bold
+Points
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+>= 5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+40
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+=4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+=3 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+=2 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+=1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Autre 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Attribution des points en fonction du nombre de projets culturels réalisés
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab3"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+L'attribution des points, à la lettre de motivation, en fonction du respect des critères sus mentionnés est détaillée dans le tableau 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab5"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+\align center
+
+\lang french
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+rowcolor
+\end_layout
+
+\end_inset
+
+[gray]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+0.8
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\series bold
+Respect des critères 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+
+\series bold
+Évaluation 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+
+\series bold
+Points 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+C1+C2+C3+C4+C5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Excellente 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+18
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+C1+C2+C3+C4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Très bien 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+C1+C2+C3 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Bien 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+C1+C2 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Moyen 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+C1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Faible 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Autre 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+Insuffisant 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang french
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Attribution des points à la lettre de motivation en fonction du nombre de critères respectés
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab5"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang french
+Les listes
+\end_layout
+
+\begin_layout Subsection
+
+\lang french
+Les listes numérotées
+\end_layout
+
+\begin_layout Enumerate
+
+\lang french
+
+\series bold
+C1
+\series default
+:La rédaction dans un langage soutenu sans erreurs d'orthographe et de grammaire, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang french
+
+\series bold
+C2
+\series default
+:La rédaction avec des propos clairs et perspicaces, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang french
+
+\series bold
+C3
+\series default
+:La lettre doit dégager l'intérêt de suivre la formation pour le candidat, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang french
+
+\series bold
+C4
+\series default
+:Le candidat doit prouver son sérieux et son désir de participer à la formation, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang french
+
+\series bold
+C5
+\series default
+:La Lettre doit montrer l'impact positif que pourrait avoir la formation sur la concrétisation du projet du candidat. 
+\end_layout
+
+\begin_layout Subsection
+
+\lang french
+Les listes non numérotées
+\end_layout
+
+\begin_layout Itemize
+
+\lang french
+
+\series bold
+C1
+\series default
+:La rédaction dans un langage soutenu sans erreurs d'orthographe et de grammaire, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang french
+
+\series bold
+C2
+\series default
+:La rédaction avec des propos clairs et perspicaces, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang french
+
+\series bold
+C3
+\series default
+:La lettre doit dégager l'intérêt de suivre la formation pour le candidat, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang french
+
+\series bold
+C4
+\series default
+:Le candidat doit prouver son sérieux et son désir de participer à la formation, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang french
+
+\series bold
+C5
+\series default
+:La Lettre doit montrer l'impact positif que pourrait avoir la formation sur la concrétisation du projet du candidat. 
+\end_layout
+
+\begin_layout Section
+
+\lang french
+Conclusion du chapitre
+\end_layout
+
+\end_body
+\end_document

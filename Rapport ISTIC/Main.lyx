@@ -1,0 +1,277 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/Home/Desktop/Rapport PFE/Rapport ISTIC/
+\textclass report
+\begin_preamble
+
+
+% Différentes options pour la classe :
+% - taille de la fonte    : 10pt, 11pt, 12pt
+% - recto ou recto-verso    : oneside, twoside
+% - stade de développement    : draft, final
+
+% Chargement d'extensions
+%\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentuées
+\usepackage[francais]{babel}
+% Pour la langue française
+
+%\usepackage[english,francais]{babel}
+% Pour utiliser les lettres accentuées
+
+%\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+%\usepackage{hyperref}
+\usepackage[french]{varioref}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+
+
+
+
+\fancyhead[L]{ISTIC}
+\fancyhead[C]{}
+\fancyhead[R]{\rightmark}
+
+
+\fancyfoot[L]{intitulé du stage}
+\fancyfoot[C]{}
+\fancyfoot[R]{\textbf{page \thepage}}
+
+
+% Début du document
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding iso8859-1
+\fontencoding T1
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Garde.lyx"
+
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Dedicaces.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Remerciements.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\begin_inset FloatList table
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Introduction.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Chapitre1.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Chapitre2.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Chapitre3.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Conclusion.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Annexe1.lyx"
+
+\end_inset
+
+ 
+\begin_inset CommandInset include
+LatexCommand include
+preview false
+filename "Annexe2.lyx"
+
+\end_inset
+
+  
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "Biblio"
+options "alpha"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang french
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Fin du document
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

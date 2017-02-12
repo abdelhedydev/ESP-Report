@@ -1,17 +1,25 @@
-\documentclass[10pt,a4paper]{report}
+	\documentclass[10pt,a4paper]{report}
 
-% Différentes options pour la classe :
+% Diff?rentes options pour la classe :
 % - taille de la fonte    : 10pt, 11pt, 12pt
 % - recto ou recto-verso    : oneside, twoside
-% - stade de développement    : draft, final
+% - stade de d?veloppement    : draft, final
 
 % Chargement d'extensions
-%\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentuées
-\usepackage[francais]{babel}    % Pour la langue française
+%\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentu?es
+\usepackage[english]{babel}    % Pour la langue fran?aise
 
 %\usepackage[english,francais]{babel}
-\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentuées
-
+\usepackage[latin1]{inputenc}    % Pour utiliser les lettres accentu?es
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+}
+ 
+\urlstyle{same}
 %\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[pdftex]{graphicx}
@@ -22,6 +30,9 @@
 \usepackage{color}
 \usepackage{colortbl}
 \usepackage{amsmath}
+\usepackage{float}
+
+
 
 
 \pagestyle{fancy}
@@ -30,9 +41,10 @@
 \fancyhead[R]{\rightmark}
 
 
-\fancyfoot[L]{intitulé du stage}
+\fancyfoot[L]{Mobile Application Developement}
 \fancyfoot[C]{}
 \fancyfoot[R]{\textbf{page \thepage}}
+
 
 
 % Début du document
